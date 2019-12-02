@@ -14,6 +14,13 @@
 		56503E762394B6B90074DE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56503E742394B6B90074DE24 /* LaunchScreen.storyboard */; };
 		56503E812394B6B90074DE24 /* The_Airliners_v_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56503E802394B6B90074DE24 /* The_Airliners_v_2Tests.swift */; };
 		56503E8C2394B6B90074DE24 /* The_Airliners_v_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56503E8B2394B6B90074DE24 /* The_Airliners_v_2UITests.swift */; };
+		56503E9A2394B7AE0074DE24 /* ListPlance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56503E992394B7AE0074DE24 /* ListPlance.swift */; };
+		568689672394F523008CC7AB /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568689652394F523008CC7AB /* HomeTableCell.swift */; };
+		568689682394F523008CC7AB /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568689662394F523008CC7AB /* HomeTableCell.xib */; };
+		5686896A2394F559008CC7AB /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568689692394F559008CC7AB /* UIView + Extension.swift */; };
+		5686896C23950157008CC7AB /* InfomationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5686896B23950157008CC7AB /* InfomationController.swift */; };
+		5686896F23950224008CC7AB /* InfomationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5686896D23950224008CC7AB /* InfomationCell.swift */; };
+		5686897023950224008CC7AB /* InfomationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5686896E23950224008CC7AB /* InfomationCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		56503E872394B6B90074DE24 /* The Airliners v.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Airliners v.2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56503E8B2394B6B90074DE24 /* The_Airliners_v_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Airliners_v_2UITests.swift; sourceTree = "<group>"; };
 		56503E8D2394B6B90074DE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56503E992394B7AE0074DE24 /* ListPlance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPlance.swift; sourceTree = "<group>"; };
+		568689652394F523008CC7AB /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		568689662394F523008CC7AB /* HomeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
+		568689692394F559008CC7AB /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		5686896B23950157008CC7AB /* InfomationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationController.swift; sourceTree = "<group>"; };
+		5686896D23950224008CC7AB /* InfomationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfomationCell.swift; sourceTree = "<group>"; };
+		5686896E23950224008CC7AB /* InfomationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfomationCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,10 @@
 			children = (
 				56503E6B2394B6B70074DE24 /* AppDelegate.swift */,
 				56503E6D2394B6B70074DE24 /* ViewController.swift */,
+				5686896B23950157008CC7AB /* InfomationController.swift */,
+				568689642394F4EB008CC7AB /* Cell */,
+				568689632394F4D9008CC7AB /* Source */,
+				568689692394F559008CC7AB /* UIView + Extension.swift */,
 				56503E6F2394B6B70074DE24 /* Main.storyboard */,
 				56503E722394B6B90074DE24 /* Assets.xcassets */,
 				56503E742394B6B90074DE24 /* LaunchScreen.storyboard */,
@@ -123,6 +141,25 @@
 				56503E8D2394B6B90074DE24 /* Info.plist */,
 			);
 			path = "The Airliners v.2UITests";
+			sourceTree = "<group>";
+		};
+		568689632394F4D9008CC7AB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				56503E992394B7AE0074DE24 /* ListPlance.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		568689642394F4EB008CC7AB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				568689652394F523008CC7AB /* HomeTableCell.swift */,
+				568689662394F523008CC7AB /* HomeTableCell.xib */,
+				5686896D23950224008CC7AB /* InfomationCell.swift */,
+				5686896E23950224008CC7AB /* InfomationCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +266,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5686897023950224008CC7AB /* InfomationCell.xib in Resources */,
 				56503E762394B6B90074DE24 /* LaunchScreen.storyboard in Resources */,
 				56503E732394B6B90074DE24 /* Assets.xcassets in Resources */,
 				56503E712394B6B70074DE24 /* Main.storyboard in Resources */,
+				568689682394F523008CC7AB /* HomeTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5686896F23950224008CC7AB /* InfomationCell.swift in Sources */,
 				56503E6E2394B6B70074DE24 /* ViewController.swift in Sources */,
 				56503E6C2394B6B70074DE24 /* AppDelegate.swift in Sources */,
+				56503E9A2394B7AE0074DE24 /* ListPlance.swift in Sources */,
+				5686896C23950157008CC7AB /* InfomationController.swift in Sources */,
+				5686896A2394F559008CC7AB /* UIView + Extension.swift in Sources */,
+				568689672394F523008CC7AB /* HomeTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
